@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Linke Spalte */
+.left-column {
+    width: 35%;
+    padding: 20px;
+    background-color: #f7e4de;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-pic {
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 100%;
+}
+
+/* Rechte Spalte */
+.right-column {
+    width: 65%;
+    padding: 20px;
+    text-align: left;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.homepage .right-column::before,
+.homepage .right-column::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.homepage .right-column::before {
+    width: 350px;
+    height: 350px;
+    background: #f4cbc6;
+    top: -50px;
+    right: -150px;
+}
+
+.homepage .right-column::after {
+    width: 450px;
+    height: 450px;
+    background: #f4cbc6;
+    bottom: -150px;
+    right: -150px;
+}
+
+.experience_container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.experience_container table {
+    width: 100%;
+}
+
+.experience_container td {
+    width: 70%;
+}
+
+.experience_container tr td:first-child {
+    width: 30%;
+}
+
+
+/* Kontaktseite */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
