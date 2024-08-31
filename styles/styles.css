@@ -31,11 +31,11 @@ body {
     overflow: hidden;
 }
 
-.profile-pic {
+.profile {
     margin-bottom: 20px;
 }
 
-.profile-pic img {
+.profile img {
     width: 100%;
 }
 
@@ -113,7 +113,7 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-    width: 100%;
+    width: 95%;
 }
 
 button {
